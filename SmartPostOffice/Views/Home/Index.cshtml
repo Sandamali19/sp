@@ -1,0 +1,50 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center mt-5">
+    <h1 class="display-4 fw-bold text-primary">Smart Post Office</h1>
+    <p class="lead">කඩිනම් සහ විශ්වසනීය තැපැල් සේවාව</p>
+    <hr />
+</div>
+
+<div class="container mt-5">
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-primary">
+                <div class="card-body text-center">
+                    <i class="bi bi-plus-circle-dotted fs-1 text-primary"></i>
+                    <h5 class="card-title mt-3">Register Item</h5>
+                    <p class="card-text text-muted">නව පාර්සල් හෝ ලිපි පද්ධතියට ඇතුළත් කරන්න.</p>
+                    <a asp-controller="ServiceRequest" asp-action="Create" class="btn btn-primary w-100">පටන් ගන්න</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-success">
+                <div class="card-body text-center">
+                    <i class="bi bi-speedometer2 fs-1 text-success"></i>
+                    <h5 class="card-title mt-3">Dashboard</h5>
+                    <p class="card-text text-muted">දැනට පවතින සියලුම සේවා ඉල්ලීම් පරීක්ෂා කරන්න.</p>
+                    <a asp-controller="ServiceRequest" asp-action="Index" class="btn btn-success w-100">Dashboard එකට</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card h-100 shadow-sm border-secondary">
+                <div class="card-body text-center">
+                    <i class="bi bi-gear-wide-connected fs-1 text-secondary"></i>
+                    <h5 class="card-title mt-3">Other Services</h5>
+                    <p class="card-text text-muted">මුද්දර ඇණවුම් සහ බංගලා වෙන්කිරීම් (Coming Soon).</p>
+                    <button class="btn btn-secondary w-100" disabled>ඉදිරියේදී...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+}

@@ -222,3 +222,4 @@ C:\sp\SmartPostOffice\obj\Debug\net10.0\refint\SmartPostOffice.dll
 C:\sp\SmartPostOffice\obj\Debug\net10.0\SmartPostOffice.pdb
 C:\sp\SmartPostOffice\obj\Debug\net10.0\SmartPostOffice.genruntimeconfig.cache
 C:\sp\SmartPostOffice\obj\Debug\net10.0\ref\SmartPostOffice.dll
+C:\sp\SmartPostOffice\obj\Debug\net10.0\SmartPostOffice.sourcelink.json
