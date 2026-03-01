@@ -139,3 +139,8 @@ CREATE TABLE StampOrder (
     CONSTRAINT FK_Stamp_Customer FOREIGN KEY (CustomerId) REFERENCES Customer(CustomerId)
 );
 GO
+
+use post_db;
+select * from ServiceRequest;
+
+

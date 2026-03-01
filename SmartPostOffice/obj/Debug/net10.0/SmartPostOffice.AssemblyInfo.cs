@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartPostOffice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4812df08203ff5029ecf1b06b9efef6e021d895")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e460cc18a316b86326b3f0c9e0fa018ec70c775c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartPostOffice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartPostOffice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
